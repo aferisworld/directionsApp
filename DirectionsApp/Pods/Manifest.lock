@@ -1,0 +1,16 @@
+PODS:
+  - Layoutless (0.4.1)
+
+DEPENDENCIES:
+  - Layoutless
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Layoutless
+
+SPEC CHECKSUMS:
+  Layoutless: ba4810c682855373bddc78d9408cc82f970541d0
+
+PODFILE CHECKSUM: 8946d8d7c256610b1094f3b1914a3cee51e4dacb
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059E6B478AA7C545EDE8385FBB446243 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BD888E7996CCF3D9CFDF18ED8BEA8 /* UI.swift */; };
+		0A782FD7B4891541781F2EF48B5AD9B7 /* Layoutless.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FC44A9A027538B837C6E449BE0CB19 /* Layoutless.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A7F61DA3F97EE21138C32DBAD0F77DF /* UI.Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28CA6ABF55E0A5FF76966576997025 /* UI.Label.swift */; };
+		149FCB740DDA73F32830E52350D83E84 /* UI.ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D1502966AA2F35DFE9F5120D7CC6A6 /* UI.ViewController.swift */; };
+		189B043674791D883A42351E705E3BCA /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096A38F1F4F4B0FBA83A5007352496D /* Layout.swift */; };
+		211E0AA877EAB471E757C71C9A5C800C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		22408AC4165D05F71D7128F171660BE8 /* LayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DCECCB2193E518BAA9C6CFF744BD3E /* LayoutProtocol.swift */; };
+		357B4B519E9E7285ADE138AD5A9494DA /* UI.Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442BB8563608799F1A63F254548C19E /* UI.Window.swift */; };
+		3987E06ABE807986F1F089F1E90D88C7 /* UI.CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485BD9087A5C6A5BB0C4F671AEFF14E5 /* UI.CollectionViewCell.swift */; };
+		3A51AC90DDA0AEF0452E565C6A3A2C42 /* Layoutless-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94760BC441F2A5199CCEF290F6A1F114 /* Layoutless-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		440A18344DCFF86FAB3FD027670DDFFE /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B74ADEBBA32AB7B496ECB8F54393 /* Length.swift */; };
+		46E6B3895C5910539B5F607477E50156 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543D6F0318E743858353F1DC25B13362 /* Deprecations.swift */; };
+		5CA5F8AF667FED69FFBBA31FA3FFBE13 /* UI.ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558E58EE0EC369228C021B3A3EF886EC /* UI.ImageView.swift */; };
+		6774EEB02D988554ED8E9E331A348209 /* LayoutNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75661CE0C1B75F6E9F230C1D56542A6 /* LayoutNode.swift */; };
+		7587E7367281D6BA6A3D1005DE9AE43D /* Pods-DirectionsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12748B9AE51595F0BBF6ABB987B93F08 /* Pods-DirectionsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ACF1AA82585FB5620686073F05260E0 /* Anchorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804D51AD16E7755AE9B33190CC604D78 /* Anchorable.swift */; };
+		8AE7D327B624CCEE400DA9E2BCF93404 /* UI.Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC6040ED1458046B9FD86C241C5D0D /* UI.Control.swift */; };
+		90C01735905DC92F64C7355305346AFF /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1103E93D62F8AE144E99A121491D251 /* Style.swift */; };
+		949982CB63DC9D8F7CAB6E470A208243 /* Layoutless+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E51ED3E3B7BECE42EF39621E85FA75 /* Layoutless+UIKit.swift */; };
+		95EBF4DBF68C8DB5561BA029FF51AF07 /* Pods-DirectionsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A85F50574ED41CE0ABB63365862338 /* Pods-DirectionsApp-dummy.m */; };
+		A442E656C7F739428939E1FA25CCF319 /* WindowTraitCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E0C9C2DC9BA95B2C9F0D63171BBC36 /* WindowTraitCollection.swift */; };
+		ABC530E0AC94BCEE03FAC42975F634FF /* TraitQueryLayoutSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BB41A16AA07D971F5A589319B2C82B /* TraitQueryLayoutSet.swift */; };
+		B00D3EE3F3C0393F96D09974D94A524D /* UI.TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90D091BE8C44FFCB871F17C766C54E5 /* UI.TextField.swift */; };
+		B10E78CDC9BC8919069A28EBBCEEA274 /* UIView+iOS10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6848C110C6B769A1B4C95FE90D874A /* UIView+iOS10.swift */; };
+		B39EA79ACCAE16AA4F97AF6CCCA9E5BE /* UI.TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8F0019E095BF93D581F94307A7C4E5 /* UI.TableViewCell.swift */; };
+		C27E796AE94FB56223DBDA74A3B677DB /* Layoutless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885E4CACAEEB4E9BA671E6308DAAE65F /* Layoutless.swift */; };
+		D6A4600E8253816CE4E2E4D05876E9A9 /* UI.Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D201182547777E1191B0D50DF6864C /* UI.Button.swift */; };
+		EE497F68B2CD3F1980D62B84114F9A6D /* ChildNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F0E6C6E4867B9A4C74B9C9DD44424 /* ChildNode.swift */; };
+		F64EC6355973A558A8DFE6C9AD5EE97B /* Layoutless-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F15F316E37F69B25C13777C7F42C4 /* Layoutless-dummy.m */; };
+		F6CABC16ECFC389F6B497B79543A0B41 /* UI.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C68EE24F641A7CB54A1683545C453FB /* UI.View.swift */; };
+		F9E50845C8FE80A233D2E5F681D61152 /* Revertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB862662D9269BF97B4854849883FBA /* Revertable.swift */; };
+		FF4B43A6D9B2094A99604216712DC767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FEF224A40EF640AB23A0C712E948B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3537FA3AC654300D38598CEFB5ECA145;
+			remoteInfo = Layoutless;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12748B9AE51595F0BBF6ABB987B93F08 /* Pods-DirectionsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DirectionsApp-umbrella.h"; sourceTree = "<group>"; };
+		18D1502966AA2F35DFE9F5120D7CC6A6 /* UI.ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.ViewController.swift; path = Sources/Views/UI.ViewController.swift; sourceTree = "<group>"; };
+		1E6F190A68CFBC87DB1605416E2E9C61 /* Layoutless-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Layoutless-Info.plist"; sourceTree = "<group>"; };
+		2140C9AB4E064864A061A8C4F9B2185E /* Pods-DirectionsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DirectionsApp-frameworks.sh"; sourceTree = "<group>"; };
+		2328CDFD9EAB4BD561429D85132EB78C /* Pods_DirectionsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DirectionsApp.framework; path = "Pods-DirectionsApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D28CA6ABF55E0A5FF76966576997025 /* UI.Label.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.Label.swift; path = Sources/Views/UI.Label.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33D201182547777E1191B0D50DF6864C /* UI.Button.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.Button.swift; path = Sources/Views/UI.Button.swift; sourceTree = "<group>"; };
+		36E0C9C2DC9BA95B2C9F0D63171BBC36 /* WindowTraitCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowTraitCollection.swift; path = Sources/Layout/WindowTraitCollection.swift; sourceTree = "<group>"; };
+		380D351B6D5B2265683FA534782A6E13 /* Pods-DirectionsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DirectionsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38FC44A9A027538B837C6E449BE0CB19 /* Layoutless.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Layoutless.h; path = Layoutless/Layoutless.h; sourceTree = "<group>"; };
+		3DE9A9C1FE2F0A3AFDA2A3B3FA8335AC /* Pods-DirectionsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DirectionsApp.release.xcconfig"; sourceTree = "<group>"; };
+		485BD9087A5C6A5BB0C4F671AEFF14E5 /* UI.CollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.CollectionViewCell.swift; path = Sources/Views/UI.CollectionViewCell.swift; sourceTree = "<group>"; };
+		48BB41A16AA07D971F5A589319B2C82B /* TraitQueryLayoutSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TraitQueryLayoutSet.swift; path = Sources/Layout/TraitQueryLayoutSet.swift; sourceTree = "<group>"; };
+		4FB862662D9269BF97B4854849883FBA /* Revertable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Revertable.swift; path = Sources/Layout/Revertable.swift; sourceTree = "<group>"; };
+		541CF5513525E7C861DD4BE3DAF38143 /* Layoutless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Layoutless.framework; path = Layoutless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		543D6F0318E743858353F1DC25B13362 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Views/Deprecations.swift; sourceTree = "<group>"; };
+		5442BB8563608799F1A63F254548C19E /* UI.Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.Window.swift; path = Sources/Views/UI.Window.swift; sourceTree = "<group>"; };
+		558E58EE0EC369228C021B3A3EF886EC /* UI.ImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.ImageView.swift; path = Sources/Views/UI.ImageView.swift; sourceTree = "<group>"; };
+		60DCECCB2193E518BAA9C6CFF744BD3E /* LayoutProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProtocol.swift; path = Sources/Layout/LayoutProtocol.swift; sourceTree = "<group>"; };
+		66BC6040ED1458046B9FD86C241C5D0D /* UI.Control.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.Control.swift; path = Sources/Views/UI.Control.swift; sourceTree = "<group>"; };
+		79E51ED3E3B7BECE42EF39621E85FA75 /* Layoutless+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Layoutless+UIKit.swift"; path = "Sources/Layout/Layoutless+UIKit.swift"; sourceTree = "<group>"; };
+		7D8F0019E095BF93D581F94307A7C4E5 /* UI.TableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.TableViewCell.swift; path = Sources/Views/UI.TableViewCell.swift; sourceTree = "<group>"; };
+		7EAFCF21E9F66A362E7DF4184B8C2CD1 /* Pods-DirectionsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DirectionsApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		804D51AD16E7755AE9B33190CC604D78 /* Anchorable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchorable.swift; path = Sources/Layout/Anchorable.swift; sourceTree = "<group>"; };
+		825AE5447249E39CAB0D459C984C3CBE /* Layoutless.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Layoutless.xcconfig; sourceTree = "<group>"; };
+		866BD888E7996CCF3D9CFDF18ED8BEA8 /* UI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.swift; path = Sources/Views/UI.swift; sourceTree = "<group>"; };
+		885E4CACAEEB4E9BA671E6308DAAE65F /* Layoutless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layoutless.swift; path = Sources/Layout/Layoutless.swift; sourceTree = "<group>"; };
+		8C68EE24F641A7CB54A1683545C453FB /* UI.View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.View.swift; path = Sources/Views/UI.View.swift; sourceTree = "<group>"; };
+		94760BC441F2A5199CCEF290F6A1F114 /* Layoutless-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Layoutless-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1DCDD423E758CFC2373EA268C91E081 /* Layoutless.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Layoutless.modulemap; sourceTree = "<group>"; };
+		A27F15F316E37F69B25C13777C7F42C4 /* Layoutless-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Layoutless-dummy.m"; sourceTree = "<group>"; };
+		A383F78D616C706D847B6ABC6FE71349 /* Pods-DirectionsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DirectionsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A79F0E6C6E4867B9A4C74B9C9DD44424 /* ChildNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChildNode.swift; path = Sources/Layout/ChildNode.swift; sourceTree = "<group>"; };
+		AAB870B70ADD3D7020B18A408FCA2D3E /* Pods-DirectionsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DirectionsApp-Info.plist"; sourceTree = "<group>"; };
+		AF6848C110C6B769A1B4C95FE90D874A /* UIView+iOS10.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+iOS10.swift"; path = "Sources/Layout/UIView+iOS10.swift"; sourceTree = "<group>"; };
+		C096A38F1F4F4B0FBA83A5007352496D /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Sources/Layout/Layout.swift; sourceTree = "<group>"; };
+		C6A85F50574ED41CE0ABB63365862338 /* Pods-DirectionsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DirectionsApp-dummy.m"; sourceTree = "<group>"; };
+		C75661CE0C1B75F6E9F230C1D56542A6 /* LayoutNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutNode.swift; path = Sources/Layout/LayoutNode.swift; sourceTree = "<group>"; };
+		C79ABAFD3DAFC43B54355DB06892F85D /* Layoutless-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Layoutless-prefix.pch"; sourceTree = "<group>"; };
+		C90D091BE8C44FFCB871F17C766C54E5 /* UI.TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.TextField.swift; path = Sources/Views/UI.TextField.swift; sourceTree = "<group>"; };
+		E7461ED7593E54C091E6FF549F1A0C76 /* Pods-DirectionsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DirectionsApp.modulemap"; sourceTree = "<group>"; };
+		F039B74ADEBBA32AB7B496ECB8F54393 /* Length.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Length.swift; path = Sources/Layout/Length.swift; sourceTree = "<group>"; };
+		F1103E93D62F8AE144E99A121491D251 /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = Sources/Style/Style.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2252A7D6A0E3F47330A135654835E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4B43A6D9B2094A99604216712DC767 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CE456F377A626ADC444AB78A5DF4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211E0AA877EAB471E757C71C9A5C800C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD9DBAF0BEF28E1E12FB9304F0EAEDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1DCDD423E758CFC2373EA268C91E081 /* Layoutless.modulemap */,
+				825AE5447249E39CAB0D459C984C3CBE /* Layoutless.xcconfig */,
+				A27F15F316E37F69B25C13777C7F42C4 /* Layoutless-dummy.m */,
+				1E6F190A68CFBC87DB1605416E2E9C61 /* Layoutless-Info.plist */,
+				C79ABAFD3DAFC43B54355DB06892F85D /* Layoutless-prefix.pch */,
+				94760BC441F2A5199CCEF290F6A1F114 /* Layoutless-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Layoutless";
+			sourceTree = "<group>";
+		};
+		3BB57F66EFFC7660FBAE01F005C1CDE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541CF5513525E7C861DD4BE3DAF38143 /* Layoutless.framework */,
+				2328CDFD9EAB4BD561429D85132EB78C /* Pods_DirectionsApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4511F69ED3F017A4A73ED15B1412D47B /* Pods-DirectionsApp */ = {
+			isa = PBXGroup;
+			children = (
+				E7461ED7593E54C091E6FF549F1A0C76 /* Pods-DirectionsApp.modulemap */,
+				380D351B6D5B2265683FA534782A6E13 /* Pods-DirectionsApp-acknowledgements.markdown */,
+				7EAFCF21E9F66A362E7DF4184B8C2CD1 /* Pods-DirectionsApp-acknowledgements.plist */,
+				C6A85F50574ED41CE0ABB63365862338 /* Pods-DirectionsApp-dummy.m */,
+				2140C9AB4E064864A061A8C4F9B2185E /* Pods-DirectionsApp-frameworks.sh */,
+				AAB870B70ADD3D7020B18A408FCA2D3E /* Pods-DirectionsApp-Info.plist */,
+				12748B9AE51595F0BBF6ABB987B93F08 /* Pods-DirectionsApp-umbrella.h */,
+				A383F78D616C706D847B6ABC6FE71349 /* Pods-DirectionsApp.debug.xcconfig */,
+				3DE9A9C1FE2F0A3AFDA2A3B3FA8335AC /* Pods-DirectionsApp.release.xcconfig */,
+			);
+			name = "Pods-DirectionsApp";
+			path = "Target Support Files/Pods-DirectionsApp";
+			sourceTree = "<group>";
+		};
+		64444480E00238146CD79A1B46F978A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4511F69ED3F017A4A73ED15B1412D47B /* Pods-DirectionsApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F417BC1B0A105259025AB5B0EAE20295 /* Pods */,
+				3BB57F66EFFC7660FBAE01F005C1CDE9 /* Products */,
+				64444480E00238146CD79A1B46F978A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E13B820588F9ECB70532F47DE41A5C42 /* Layoutless */ = {
+			isa = PBXGroup;
+			children = (
+				804D51AD16E7755AE9B33190CC604D78 /* Anchorable.swift */,
+				A79F0E6C6E4867B9A4C74B9C9DD44424 /* ChildNode.swift */,
+				543D6F0318E743858353F1DC25B13362 /* Deprecations.swift */,
+				C096A38F1F4F4B0FBA83A5007352496D /* Layout.swift */,
+				38FC44A9A027538B837C6E449BE0CB19 /* Layoutless.h */,
+				885E4CACAEEB4E9BA671E6308DAAE65F /* Layoutless.swift */,
+				79E51ED3E3B7BECE42EF39621E85FA75 /* Layoutless+UIKit.swift */,
+				C75661CE0C1B75F6E9F230C1D56542A6 /* LayoutNode.swift */,
+				60DCECCB2193E518BAA9C6CFF744BD3E /* LayoutProtocol.swift */,
+				F039B74ADEBBA32AB7B496ECB8F54393 /* Length.swift */,
+				4FB862662D9269BF97B4854849883FBA /* Revertable.swift */,
+				F1103E93D62F8AE144E99A121491D251 /* Style.swift */,
+				48BB41A16AA07D971F5A589319B2C82B /* TraitQueryLayoutSet.swift */,
+				866BD888E7996CCF3D9CFDF18ED8BEA8 /* UI.swift */,
+				33D201182547777E1191B0D50DF6864C /* UI.Button.swift */,
+				485BD9087A5C6A5BB0C4F671AEFF14E5 /* UI.CollectionViewCell.swift */,
+				66BC6040ED1458046B9FD86C241C5D0D /* UI.Control.swift */,
+				558E58EE0EC369228C021B3A3EF886EC /* UI.ImageView.swift */,
+				2D28CA6ABF55E0A5FF76966576997025 /* UI.Label.swift */,
+				7D8F0019E095BF93D581F94307A7C4E5 /* UI.TableViewCell.swift */,
+				C90D091BE8C44FFCB871F17C766C54E5 /* UI.TextField.swift */,
+				8C68EE24F641A7CB54A1683545C453FB /* UI.View.swift */,
+				18D1502966AA2F35DFE9F5120D7CC6A6 /* UI.ViewController.swift */,
+				5442BB8563608799F1A63F254548C19E /* UI.Window.swift */,
+				AF6848C110C6B769A1B4C95FE90D874A /* UIView+iOS10.swift */,
+				36E0C9C2DC9BA95B2C9F0D63171BBC36 /* WindowTraitCollection.swift */,
+				0AD9DBAF0BEF28E1E12FB9304F0EAEDD /* Support Files */,
+			);
+			name = Layoutless;
+			path = Layoutless;
+			sourceTree = "<group>";
+		};
+		F417BC1B0A105259025AB5B0EAE20295 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E13B820588F9ECB70532F47DE41A5C42 /* Layoutless */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54B14876824CF46BC03443F40A8E8C53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A51AC90DDA0AEF0452E565C6A3A2C42 /* Layoutless-umbrella.h in Headers */,
+				0A782FD7B4891541781F2EF48B5AD9B7 /* Layoutless.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAD38EDC58D54117C341DE8A84AC360 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7587E7367281D6BA6A3D1005DE9AE43D /* Pods-DirectionsApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3537FA3AC654300D38598CEFB5ECA145 /* Layoutless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D6CDA862BD4433E9EA5B3E089D7264 /* Build configuration list for PBXNativeTarget "Layoutless" */;
+			buildPhases = (
+				54B14876824CF46BC03443F40A8E8C53 /* Headers */,
+				30B3F6726C61743634C0A2534D7A6862 /* Sources */,
+				E3CE456F377A626ADC444AB78A5DF4C8 /* Frameworks */,
+				48DC93EABA9A50C078FDB07A2BCCE2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Layoutless;
+			productName = Layoutless;
+			productReference = 541CF5513525E7C861DD4BE3DAF38143 /* Layoutless.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0EE93148DA11E8BE676E3933432038D /* Pods-DirectionsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2CB10D779BA5B0FA6F78BCFC139E84 /* Build configuration list for PBXNativeTarget "Pods-DirectionsApp" */;
+			buildPhases = (
+				BAAD38EDC58D54117C341DE8A84AC360 /* Headers */,
+				78B2FA409B2F82BC7F0FABB53E6ACF98 /* Sources */,
+				B2252A7D6A0E3F47330A135654835E49 /* Frameworks */,
+				57ABC70B2006B1123F7945A50403F9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CF38F2E07C72CF9D7F77742B3119D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-DirectionsApp";
+			productName = "Pods-DirectionsApp";
+			productReference = 2328CDFD9EAB4BD561429D85132EB78C /* Pods_DirectionsApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3BB57F66EFFC7660FBAE01F005C1CDE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3537FA3AC654300D38598CEFB5ECA145 /* Layoutless */,
+				C0EE93148DA11E8BE676E3933432038D /* Pods-DirectionsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48DC93EABA9A50C078FDB07A2BCCE2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57ABC70B2006B1123F7945A50403F9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30B3F6726C61743634C0A2534D7A6862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACF1AA82585FB5620686073F05260E0 /* Anchorable.swift in Sources */,
+				EE497F68B2CD3F1980D62B84114F9A6D /* ChildNode.swift in Sources */,
+				46E6B3895C5910539B5F607477E50156 /* Deprecations.swift in Sources */,
+				189B043674791D883A42351E705E3BCA /* Layout.swift in Sources */,
+				949982CB63DC9D8F7CAB6E470A208243 /* Layoutless+UIKit.swift in Sources */,
+				F64EC6355973A558A8DFE6C9AD5EE97B /* Layoutless-dummy.m in Sources */,
+				C27E796AE94FB56223DBDA74A3B677DB /* Layoutless.swift in Sources */,
+				6774EEB02D988554ED8E9E331A348209 /* LayoutNode.swift in Sources */,
+				22408AC4165D05F71D7128F171660BE8 /* LayoutProtocol.swift in Sources */,
+				440A18344DCFF86FAB3FD027670DDFFE /* Length.swift in Sources */,
+				F9E50845C8FE80A233D2E5F681D61152 /* Revertable.swift in Sources */,
+				90C01735905DC92F64C7355305346AFF /* Style.swift in Sources */,
+				ABC530E0AC94BCEE03FAC42975F634FF /* TraitQueryLayoutSet.swift in Sources */,
+				D6A4600E8253816CE4E2E4D05876E9A9 /* UI.Button.swift in Sources */,
+				3987E06ABE807986F1F089F1E90D88C7 /* UI.CollectionViewCell.swift in Sources */,
+				8AE7D327B624CCEE400DA9E2BCF93404 /* UI.Control.swift in Sources */,
+				5CA5F8AF667FED69FFBBA31FA3FFBE13 /* UI.ImageView.swift in Sources */,
+				0A7F61DA3F97EE21138C32DBAD0F77DF /* UI.Label.swift in Sources */,
+				059E6B478AA7C545EDE8385FBB446243 /* UI.swift in Sources */,
+				B39EA79ACCAE16AA4F97AF6CCCA9E5BE /* UI.TableViewCell.swift in Sources */,
+				B00D3EE3F3C0393F96D09974D94A524D /* UI.TextField.swift in Sources */,
+				F6CABC16ECFC389F6B497B79543A0B41 /* UI.View.swift in Sources */,
+				149FCB740DDA73F32830E52350D83E84 /* UI.ViewController.swift in Sources */,
+				357B4B519E9E7285ADE138AD5A9494DA /* UI.Window.swift in Sources */,
+				B10E78CDC9BC8919069A28EBBCEEA274 /* UIView+iOS10.swift in Sources */,
+				A442E656C7F739428939E1FA25CCF319 /* WindowTraitCollection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B2FA409B2F82BC7F0FABB53E6ACF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EBF4DBF68C8DB5561BA029FF51AF07 /* Pods-DirectionsApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CF38F2E07C72CF9D7F77742B3119D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Layoutless;
+			target = 3537FA3AC654300D38598CEFB5ECA145 /* Layoutless */;
+			targetProxy = 5FEF224A40EF640AB23A0C712E948B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		062FD4383FFA20E4F18814EBC2BB0390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825AE5447249E39CAB0D459C984C3CBE /* Layoutless.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Layoutless/Layoutless-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Layoutless/Layoutless-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Layoutless/Layoutless.modulemap";
+				PRODUCT_MODULE_NAME = Layoutless;
+				PRODUCT_NAME = Layoutless;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		58F33A2FC26D0789043D8EBEFECF9D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE9A9C1FE2F0A3AFDA2A3B3FA8335AC /* Pods-DirectionsApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DirectionsApp/Pods-DirectionsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DirectionsApp/Pods-DirectionsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A676F6FBA5340480FF4CF28162796443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825AE5447249E39CAB0D459C984C3CBE /* Layoutless.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Layoutless/Layoutless-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Layoutless/Layoutless-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Layoutless/Layoutless.modulemap";
+				PRODUCT_MODULE_NAME = Layoutless;
+				PRODUCT_NAME = Layoutless;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB09B621ED251839D4FA17E44F361111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B09204792F2C10E874406846434569B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A383F78D616C706D847B6ABC6FE71349 /* Pods-DirectionsApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DirectionsApp/Pods-DirectionsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DirectionsApp/Pods-DirectionsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2CB10D779BA5B0FA6F78BCFC139E84 /* Build configuration list for PBXNativeTarget "Pods-DirectionsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09204792F2C10E874406846434569B3 /* Debug */,
+				58F33A2FC26D0789043D8EBEFECF9D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09B621ED251839D4FA17E44F361111 /* Debug */,
+				3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D6CDA862BD4433E9EA5B3E089D7264 /* Build configuration list for PBXNativeTarget "Layoutless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062FD4383FFA20E4F18814EBC2BB0390 /* Debug */,
+				A676F6FBA5340480FF4CF28162796443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
