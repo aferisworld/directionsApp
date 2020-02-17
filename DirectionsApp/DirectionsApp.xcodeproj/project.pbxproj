@@ -11,6 +11,8 @@
 		B21B214223F85B4E00668238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21B214123F85B4E00668238 /* Assets.xcassets */; };
 		B21B214523F85B4E00668238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21B214323F85B4E00668238 /* LaunchScreen.storyboard */; };
 		B21B214D23F8984F00668238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21B214C23F8984F00668238 /* ViewController.swift */; };
+		B262F6B023FAD79400688FBB /* image_1-iPhone-6.png in Resources */ = {isa = PBXBuildFile; fileRef = B262F6AE23FAD79400688FBB /* image_1-iPhone-6.png */; };
+		B262F6B123FAD79400688FBB /* image_2-iPhone-6.png in Resources */ = {isa = PBXBuildFile; fileRef = B262F6AF23FAD79400688FBB /* image_2-iPhone-6.png */; };
 		C7931EAF382A117B06712CAC /* Pods_DirectionsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0F05381242563460E350E6 /* Pods_DirectionsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		B21B214423F85B4E00668238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B21B214623F85B4E00668238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B21B214C23F8984F00668238 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B262F6AE23FAD79400688FBB /* image_1-iPhone-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_1-iPhone-6.png"; sourceTree = "<group>"; };
+		B262F6AF23FAD79400688FBB /* image_2-iPhone-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_2-iPhone-6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				B21B214C23F8984F00668238 /* ViewController.swift */,
 				B21B214123F85B4E00668238 /* Assets.xcassets */,
 				B21B214323F85B4E00668238 /* LaunchScreen.storyboard */,
+				B262F6AE23FAD79400688FBB /* image_1-iPhone-6.png */,
+				B262F6AF23FAD79400688FBB /* image_2-iPhone-6.png */,
 				B21B214623F85B4E00668238 /* Info.plist */,
 			);
 			path = DirectionsApp;
@@ -145,7 +151,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B262F6B023FAD79400688FBB /* image_1-iPhone-6.png in Resources */,
 				B21B214523F85B4E00668238 /* LaunchScreen.storyboard in Resources */,
+				B262F6B123FAD79400688FBB /* image_2-iPhone-6.png in Resources */,
 				B21B214223F85B4E00668238 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
