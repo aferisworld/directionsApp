@@ -101,7 +101,23 @@ class ViewController: UIViewController {
     }
     
     @objc fileprivate func startStopButtonTapped() {
+        if !navigationStarted {
+            showMapRoute = true
+            if let location = locationManager.location {
+                let center = location.coordinate
+                centerViewToUserLocation(center: center)
+            }
+        }else {
+            if let route = route {
+                self.mapView.setVisibleMapRect(route.polyline.boundingMapRect, edgePadding: UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16), animated: true)
+                self.steps.removeAll()
+                self.stepCounter = 0
+            }
+        }
         
+        navigationStarted.toggle()
+        
+        startStopButton.setTitle(navigationStarted ? "Stop Navigation" : "Start Navigation", for: .normal)
     }
 
     override func viewDidLoad() {
@@ -189,7 +205,26 @@ class ViewController: UIViewController {
     }
     
     fileprivate func getRouteSteps(route: MKRoute) {
+        for mr in locationManager.monitoredRegions {
+            locationManager.stopMonitoring(for: mr)
+        }
+        let steps = route.steps
+        self.steps = steps
         
+        for i in 0..<steps.count {
+            let step = steps[i]
+            debugPrint(step.instructions)
+            debugPrint(step.distance)
+            
+            let region = CLCircularRegion(center: step.polyline.coordinate, radius: 20, identifier: "\(i)")
+            locationManager.startMonitoring(for: region)
+        }
+        
+        stepCounter += 1
+        let initialMessage = "in \(steps[stepCounter].distance) meters \(steps[stepCounter].instructions), then in \(steps[stepCounter + 1].distance) meters, \(steps[stepCounter + 1].instructions)"
+        directionLabel.text = initialMessage
+        let speechUtterance = AVSpeechUtterance(string: initialMessage)
+        speechSynthesizer.speak(speechUtterance)
     }
 
 }
@@ -207,6 +242,25 @@ extension ViewController : CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         handleAuthorizationStatus(locationManager: locationManager, status: status)
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
+        debugPrint("didEnterRegion")
+        stepCounter += 1
+        if stepCounter < steps.count {
+            let message = "In \(steps[stepCounter].distance) meters \(steps[stepCounter].instructions)"
+             directionLabel.text = message
+            let speechUtterance = AVSpeechUtterance(string: message)
+            speechSynthesizer.speak(speechUtterance)
+        }else {
+            let message = "You have arrived at your destination"
+            directionLabel.text = message
+            stepCounter = 0
+            navigationStarted = false
+            for monitoredRegion in locationManager.monitoredRegions {
+                locationManager.stopMonitoring(for: monitoredRegion)
+            }
+        }
     }
 }
 
